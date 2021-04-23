@@ -1,0 +1,36 @@
+.article1 {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 30px;
+
+  &__small {
+    color: #8ccbea;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  &__title {
+    text-transform: capitalize;
+    font-size: 24px;
+    width: 290px;
+    height: 60px;
+  }
+  &__paragraph {
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+  &__button {
+    width: 76px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    color: $color-orange;
+    text-decoration: none;
+    border: solid $color-orange 2px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
