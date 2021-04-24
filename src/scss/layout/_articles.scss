@@ -34,6 +34,7 @@
   @media (min-width: 768px) {
     & {
       padding-bottom: 60px;
+      padding-left: 39px;
     }
     &__title {
       font-size: 26px;
@@ -110,6 +111,8 @@
     &__reason1 {
       grid-row: 2/3;
       grid-column: 1/2;
+      align-self: initial;
+      margin-left: auto;
     }
     &__reason2 {
       grid-row: 2/3;
@@ -119,6 +122,8 @@
     &__reason3 {
       grid-row: 2/3;
       grid-column: 3/4;
+      margin-left: 0;
+      align-self: flex-start;
     }
     &__subtitle {
       font-size: 24px;
