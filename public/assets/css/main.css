@@ -67,6 +67,12 @@
       line-height: 106px; }
     .hero__subtitle {
       font-size: 24px; } }
+  @media (min-width: 1200px) {
+    .hero__container {
+      padding-top: 25vw; }
+    .hero__title {
+      font-size: 100px;
+      line-height: 132px; } }
 
 .article1 {
   line-height: 30px;
@@ -78,7 +84,6 @@
   .article1__title {
     text-transform: capitalize;
     font-size: 24px;
-    width: 290px;
     height: 60px; }
   .article1__paragraph {
     font-size: 18px;
@@ -105,6 +110,16 @@
       line-height: 45px; }
     .article1__paragraph {
       font-size: 20px; } }
+  @media (min-width: 1200px) {
+    .article1 {
+      padding-left: 275px;
+      padding-right: 275px; }
+    .article1__small {
+      font-size: 16px; }
+    .article1__title {
+      font-size: 32px; }
+    .article1__paragraph {
+      line-height: 30px; } }
 
 .article2 {
   background: #eff9ff;
@@ -153,9 +168,9 @@
   @media (min-width: 768px) {
     .article2 {
       grid-template-columns: 1fr 212.3px 1fr;
-      grid-template-rows: 60px 1fr 105px;
       height: auto;
-      padding-bottom: -20px; }
+      padding-bottom: -20px;
+      line-height: 30px; }
     .article2__title {
       grid-row: 1/2;
       grid-column: 1/4;
@@ -182,6 +197,24 @@
     .article2__buttom {
       grid-row: 3/4;
       grid-column: 2/3; } }
+  @media (min-width: 1200px) {
+    .article2 {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 105px 1fr 105px;
+      font-weight: 500; }
+    .article2__title {
+      font-size: 32px;
+      line-height: 45px;
+      padding-bottom: 45px; }
+    .article2__reason1 {
+      align-self: center;
+      padding-bottom: 100px; }
+    .article2__reason2 {
+      align-self: center;
+      padding-bottom: 100px; }
+    .article2__reason3 {
+      align-self: center;
+      padding-bottom: 100px; } }
 
 .footer {
   background: #304268;
@@ -239,5 +272,12 @@
       padding: 0; }
     .footer__copy {
       justify-content: flex-start; } }
+  @media (min-width: 1200px) {
+    .footer__container {
+      justify-content: center; }
+    .footer__links-blog {
+      margin-right: 50px; }
+    .footer__small {
+      margin-right: 50px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -68,4 +68,15 @@
       justify-content: flex-start;
     }
   }
+  @media (min-width: 1200px) {
+    &__container {
+      justify-content: center;
+    }
+    &__links-blog {
+      margin-right: 50px;
+    }
+    &__small {
+      margin-right: 50px;
+    }
+  }
 }
