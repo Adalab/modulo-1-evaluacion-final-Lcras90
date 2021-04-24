@@ -1,0 +1,25 @@
+.footer {
+  background: #304268;
+
+  &__button-container {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(50% - 22.5px);
+    transform: translate(0, -22.5px);
+    //POSIBLE MIXING O WEREVER>>mismo que el HERO//
+  }
+  &__button {
+    background: url(../images/ico-arrow.svg);
+    display: flex;
+    width: 20.6px;
+    height: 24px;
+  }
+  &__links-blog {
+    text-decoration: none;
+  }
+}

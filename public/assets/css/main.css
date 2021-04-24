@@ -139,4 +139,24 @@
     justify-content: center;
     margin-left: calc(50% - 91px); }
 
+.footer {
+  background: #304268; }
+  .footer__button-container {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(50% - 22.5px);
+    transform: translate(0, -22.5px); }
+  .footer__button {
+    background: url(../images/ico-arrow.svg);
+    display: flex;
+    width: 20.6px;
+    height: 24px; }
+  .footer__links-blog {
+    text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
