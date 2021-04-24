@@ -26,7 +26,7 @@
   height: 14px; }
 
 .hero {
-  background: url(../images/cover.jpg) no-repeat center;
+  background: linear-gradient(0deg, black 0%, rgba(255, 255, 255, 0.104079) 25%), url(../images/cover.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
   color: #ffffff; }
