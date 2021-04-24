@@ -44,4 +44,13 @@
     height: 11.7px;
     display: flex;
   }
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 80px;
+      line-height: 106px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+  }
 }

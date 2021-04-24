@@ -61,6 +61,12 @@
     width: 20px;
     height: 11.7px;
     display: flex; }
+  @media (min-width: 768px) {
+    .hero__title {
+      font-size: 80px;
+      line-height: 106px; }
+    .hero__subtitle {
+      font-size: 24px; } }
 
 .article1 {
   padding-top: 30px;
