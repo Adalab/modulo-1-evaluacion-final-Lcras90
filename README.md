@@ -1,7 +1,8 @@
 #Evaluación Final Módulo 1 @lcras90
 
 ##General Info
-Maquetación sobre un diseño dado.
+
+- Maquetación sobre un diseño dado.
 
 ##Incluye
 
