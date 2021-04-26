@@ -38,6 +38,12 @@
     margin-left: calc(50% - 22.5px);
     transform: translate(0, 45px);
   }
+  &__arrow-container:hover {
+    animation-name: pointDown;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
   &__arrow {
     background: url(../images/ico-scroll-down.svg) no-repeat;
     width: 20px;
