@@ -1,0 +1,23 @@
+@keyframes pointUp {
+  0% {
+    transform: translateY (0);
+  }
+  20% {
+    transform: translateY (-20px);
+  }
+  35% {
+    transform: translateY (-10px);
+  }
+  50% {
+    transform: translateY (-20px);
+  }
+  65% {
+    transform: translateY (-10px);
+  }
+  80% {
+    transform: translateY (-20px);
+  }
+  100% {
+    transform: translateY (0px);
+  }
+}

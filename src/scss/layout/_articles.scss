@@ -17,7 +17,7 @@
     padding-bottom: 30px;
     padding-top: 15px;
   }
-  &__button {
+  &__buttom {
     width: 76px;
     height: 45px;
     font-size: 20px;
@@ -29,6 +29,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    transition: background-color 0.6s ease 0s font-size 0.6s ease 0s color 0.6s
+      ease;
+  }
+  &__buttom:hover {
+    background-color: $color-orange;
+    font-size: 27px;
+    color: $color-white;
   }
   @media (min-width: 768px) {
     & {
@@ -108,13 +116,20 @@
     align-items: center;
     justify-content: center;
     margin-left: calc(50% - 91px);
+    transition: background-color 0.6s ease 0s,
+      font-size 0.5s ease 0s color 0.6s ease;
+  }
+  &__buttom:hover {
+    background-color: $color-white;
+    color: $color-orange;
+    font-size: 27px;
   }
   @media (min-width: 768px) {
     & {
       grid-template-columns: 1fr 212.3px 1fr;
       height: auto;
-      padding-bottom: -20px;
       line-height: 30px;
+      height: 395px;
     }
     &__title {
       grid-row: 1/2;
@@ -155,6 +170,7 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 105px 1fr 105px;
       font-weight: 500;
+      height: 427px;
     }
     &__title {
       font-size: 32px;

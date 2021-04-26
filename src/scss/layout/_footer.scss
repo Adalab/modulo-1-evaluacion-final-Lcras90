@@ -3,7 +3,7 @@
   line-height: 1.88;
   font-weight: 500;
 
-  &__button-container {
+  &__buttom-container {
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -11,12 +11,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(0, -22.5px);
-    margin-left: calc(50% - 22.5px);
+    position: relative;
+    top: -22.5px;
+    left: calc(50% - 22.5px);
     box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.56);
     //POSIBLE MIXING O WEREVER>>mismo que el HERO//
   }
-  &__button {
+  &__buttom-container:hover {
+    animation-name: pointUp;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+  }
+  &__buttom {
     background: url(../images/ico-arrow.svg);
     width: 20.6px;
     height: 24px;
