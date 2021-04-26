@@ -118,8 +118,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: calc(50% - 22.5px);
-    transform: translate(0, 45px); }
+    position: relative;
+    top: 22.5px;
+    left: calc(50% - 22.5px); }
   .hero__arrow-container:hover {
     -webkit-animation-name: pointDown;
     animation-name: pointDown;

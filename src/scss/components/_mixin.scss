@@ -1,0 +1,12 @@
+@mixin arrowsbuttoms($top) {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: $top;
+  left: calc(50% - 22.5px);
+}

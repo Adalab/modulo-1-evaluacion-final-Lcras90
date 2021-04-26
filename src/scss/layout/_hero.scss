@@ -28,15 +28,7 @@
     padding-top: 10px;
   }
   &__arrow-container {
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    background-color: $color-white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: calc(50% - 22.5px);
-    transform: translate(0, 45px);
+    @include arrowsbuttoms(22.5px);
   }
   &__arrow-container:hover {
     animation-name: pointDown;
