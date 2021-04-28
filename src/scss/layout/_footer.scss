@@ -6,6 +6,7 @@
   &__buttom-container {
     @include arrowsbuttoms(-22.5px);
     box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.56);
+    display: none;
     //POSIBLE MIXING O WEREVER>>mismo que el HERO//
   }
   &__buttom-container:hover {
@@ -47,6 +48,9 @@
     justify-content: center;
   }
   @media (min-width: 768px) {
+    &__buttom-container {
+      display: flex;
+    }
     &__container {
       display: flex;
       justify-content: space-around;
